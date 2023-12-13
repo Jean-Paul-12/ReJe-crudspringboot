@@ -4,3 +4,4 @@
 //así como la información en el repositior de devops, este sea un parametro de entrada
 def scmUrl = 'https://github.com/Jean-Paul-12/ReJe-crudspringboot'
 //al usar pipelineGeneral, se está llamando la función de dicho nombre, el cual es un archivo .groovy en
+pipelineGeneral(scmUrl:scmUrl)
