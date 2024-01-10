@@ -2,7 +2,9 @@
 FROM openjdk:latest
 
 # Crea un directorio de trabajo para la aplicación
-WORKDIR crudspringboot
+WORKDIR /ReJe-crudspringboot
+
+COPY . . 
 
 # Copia el archivo jar de la aplicación al directorio de trabajo
 COPY target/crud-0.0.1-SNAPSHOT.jar ./
